@@ -1,0 +1,305 @@
+/* Paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ebebeb;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #EAC926;
+    padding: 20px 10px;
+}
+
+.logo-mercado-liebre {
+    width: 50vw;
+    margin: auto;
+}
+
+.navegacion-header {
+    text-decoration: none;
+    line-height: 4px;
+    display: none;
+}
+
+.section-navegacion ul {
+    list-style: none;
+    line-height: 15px;
+    margin: 12px 0px;
+    padding: 0;
+}
+
+.section-navegacion a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+.burger-menu {
+    height: 40px;
+    width: 40px;
+    background-color: #1259c3 ;
+    border-radius: 15%;
+    margin: auto;
+}
+
+.fa-bars {
+    font-size:20px;
+    color:white;
+    margin-top: 10px;
+    margin-left: 11px;
+}
+
+.p-navegacion {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0.3em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.cuotas-header {
+    text-align: center;
+    margin: auto;
+}
+
+.fa-id-card {
+    font-size: 12px;
+    color: #000000;
+}
+
+.fa-right-to-bracket {
+    font-size: 12px;
+    color: #000000;
+}
+
+.fa-basket-shopping {
+    font-size: 12px;
+    color: #000000;
+}
+
+.img-banner {
+    width: 100%;
+    margin-left: 0%;
+}
+
+/* MAIN */
+
+main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    background-color: #ebebeb;
+}
+
+.sect-main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2-main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: auto;
+    width: 90vw;
+    margin: 25px;
+}
+
+.h3-main {
+    display: none;
+    font-size: 16px;
+    font-weight: normal;
+    color: #666;
+}
+
+.img-articulo {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.div-articulos {
+    margin: auto;
+    width: 90vw;
+    background-color: white;
+    margin-top: 10px;
+}
+
+.logo-precio-nombre {
+    display: f;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.precio-desc {
+    display: flex;
+}
+
+.precio-articulos{
+    flex-grow: 0.3;
+    font-size: 18px;
+    color: #000000;
+    margin: 0px;
+}
+
+.desc-articulos{
+    flex-grow: 0.7;
+    font-size: 16px;
+    color: #39b54a;
+    margin: 0px;
+}
+
+.logo-precio-nombre > .div-camion {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.fa-truck {
+    font-size: 15px;
+    color: #39b54a;
+}
+
+/* FOOTER */
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #fff;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+.h3-footer {
+    font-size: large;
+    font-weight: bolder;
+    color: #666;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+
+.section-footer {
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.p-footer {
+    color: #666;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    display: block;
+    line-height: 15px;
+}
+
+.h4-footer {
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+}
+
+.div-footer {
+    text-align: center;
+}
+
+.fa-credit-card {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+}
+
+.fa-gift {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+}
+
+.fa-user-shield {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+}
+
+/* MEDIA QUERIS */
+
+/* Tablet */
+@media (min-width: 361px) {
+    .h3-main {
+        display: flex;
+    }
+
+    .div-articulos {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .navegacion-header {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+    
+    .sect-main {
+        justify-content: space-around;
+    }
+    
+    .sect-main > .div-articulos {
+        flex-basis: 43%;
+    }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+    .h3-main {
+        display: flex;
+    }
+
+    .div-articulos {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .navegacion-header {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .sect-main {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .div-articulos {
+        margin: 25px;
+    }
+}
