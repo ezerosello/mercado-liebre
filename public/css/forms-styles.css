@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 25px 0 25px;
+}
+
+.formulario h2 {
+    color: black;
+    margin: 20px 0 5px 0;
+    font-size: 24px;
+}
+
+.formulario p {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.formulario input {
+    font-family: 'Roboto', sans-serif;
+    padding: 8px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.perfil-usuario {
+    display: flex;
+    justify-content: space-around;
+}
+
+.perfil-usuario label {
+    align-self: center;
+    margin-top: 15px;
+}
+
+.interes {
+    padding: 0 15px 0 15px;
+}
+
+.interes label {
+    padding: 0 15px 0 15px;
+}
+/* 
+.formulario button {
+    margin: 15px;
+} */
+
+.botones-registro {
+    display: flex;
+    flex-direction: column;
+}
+
+.botones-registro a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.boton {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1259c3;
+    margin: 15px 15px 0 15px;
+}
+
+@media (min-width: 361px) {
+    .formulario {
+        padding: 5px 10% 0 10%;
+    }
+
+    .perfil-usuario {
+        justify-content: left;
+    }
+
+    .perfil-usuario label {
+        padding-right: 30px;
+    }
+
+    .perfil-usuario input {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 769px) {
+    .formulario {
+        padding: 5px 20% 0 20%;
+    }
+
+    .perfil-usuario {
+        justify-content: left;
+    }
+
+    .perfil-usuario label {
+        padding-right: 30px;
+    }
+
+    .perfil-usuario input {
+        margin-right: 5px;
+    }
+}

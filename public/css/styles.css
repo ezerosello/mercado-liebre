@@ -74,7 +74,6 @@ header {
     justify-content: space-around;
 }
 
-
 .section-navegacion ul {
     display: flex;
     list-style: none;
@@ -296,25 +295,22 @@ footer {
     }
 
     .logo-mercado-liebre {
-        width: 150px;
+        /* width: 150px; */
+        width: 40%;
         flex-grow: 0.3;
         align-self: center;
     }
 
     .busqueda {
-        flex-grow: 0.3;
-        justify-content: flex-end;
-        width: 40%;
+        justify-content: space-between;
+        width: 30%;
         align-self: center;
-    }
-
-    .busqueda input {
-        width: 250px;
     }
 
     .cuotas-header {
         flex-grow: 0.3;
         padding-top: 25px;
+        width: 30%;
     }
 
     .h3-main {
@@ -360,13 +356,19 @@ footer {
     }
 
     .busqueda {
-        flex-grow: 0.3;
-        justify-content: flex-end;
+        flex-grow: 0.2;
+        justify-content: space-between;
         align-self: center;
     }
 
     .busqueda input {
-        width: 250px;
+        width: 300px;
+        justify-content: left;
+        padding-right: 20%;
+    }
+
+    .busqueda button {
+        justify-content: right;
     }
 
     .cuotas-header {
@@ -374,8 +376,6 @@ footer {
         align-self: center;
         text-align: center;
         margin: 0;
-        /* padding-bottom: 25px; */
-        /* padding-top: 25px; */
         width: 1px;
     }
 
