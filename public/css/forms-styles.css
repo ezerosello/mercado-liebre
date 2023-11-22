@@ -47,20 +47,18 @@
 .interes label {
     padding: 0 15px 0 15px;
 }
-/* 
-.formulario button {
-    margin: 15px;
-} */
 
-.botones-registro {
+.botones-forms {
     display: flex;
     flex-direction: column;
+    margin: 20px 0 20px 0;
 }
 
-.botones-registro a {
+.botones-forms a {
     text-decoration: none;
     color: #ffffff;
 }
+
 
 .boton {
     font-family: 'Roboto', sans-serif;
@@ -71,6 +69,32 @@
     border-radius: 5px;
     background-color: #1259c3;
     margin: 15px 15px 0 15px;
+}
+.boton-login {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 20px 0;
+}
+
+.boton-login a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.boton-ingresar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1259c3;
+    margin: 15px 15px 0 15px;
+    transition: all 0.5s;
+}
+
+.boton-ingresar:hover {
+    background-color: #0022AA;
 }
 
 @media (min-width: 361px) {
